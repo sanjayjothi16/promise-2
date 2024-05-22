@@ -45,7 +45,7 @@ function createcountry({ name, flag, code, capital, region, population,latitude,
 }
 function block(lat,lng,name){
 
-  var WAPI = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=06e423ec0af839c485470951f60c3f6b`
+  var WAPI = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=b74bcb74bb0fdf5f44c189fdb3cb682e`
    
   console.log(name)
  fetch(WAPI)
